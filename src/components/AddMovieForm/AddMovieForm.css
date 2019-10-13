@@ -1,0 +1,39 @@
+.wrapper {
+  width: "100%";
+  padding: 5px;
+  display: flex;
+}
+
+form {
+  width: 100%;
+}
+
+.label {
+  float: left;
+  padding-right: 50px;
+  min-width: 100px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+input,
+select {
+  font-size: 18px;
+}
+
+.form-body {
+  padding: 20px;
+}
+
+.back-to-list {
+  font-size: 20px;
+  float: left;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.fa-arrow-left {
+  margin-right: 10px;
+}
